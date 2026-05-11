@@ -1,24 +1,24 @@
 # Guía de Sesión 3: El Arte de Presentar Datos (Storytelling Visual)
 
-Un reporte que nadie entiende es un reporte que no sirve. En esta sesión aprenderemos a pasar de "tablas aburridas" a tableros de control (Dashboards) que facilitan la toma de decisiones.
+Un buen reporte es aquel que permite comunicar hallazgos de forma clara y rápida. En esta sesión aprenderemos a transformar nuestras tablas en tableros de control (Dashboards) profesionales que faciliten la toma de decisiones.
 
 ---
 
-## 1. Menos es Más: Limpieza Visual
-Antes de insertar un gráfico, debemos limpiar la "ruido":
-*   **Adiós a las líneas de cuadrícula:** Ve a la pestaña `Vista` y desactiva "Líneas de cuadrícula". Esto hace que tu reporte parezca una aplicación o sitio web, no una hoja de cálculo.
-*   **Colores con Propósito:** No uses colores al azar. Usa el color de la marca de tu empresa o usa gris para lo neutral y un color fuerte (como azul o naranja) para lo que quieres resaltar.
+## 1. Claridad ante todo: Limpieza Visual
+Para que nuestros datos resalten, es útil reducir los elementos que pueden distraer la atención:
+*   **Líneas de cuadrícula:** Ve a la pestaña `Vista` y desactiva "Líneas de cuadrícula". Esto le da a tu reporte un acabado más limpio y profesional, similar al de una aplicación.
+*   **Colores con Propósito:** Evita el uso excesivo de colores. Es más efectivo usar tonos neutros (como gris) y resaltar los puntos clave con un color distintivo que represente la identidad de tu marca o proyecto.
 
-## 2. Gráficos de Alto Impacto
-*   **Gráficos Combinados:** Úsalos para comparar dos métricas diferentes (ej. Barras para "Ventas" y una Línea para "% de Margen").
-*   **Minigráficos (Sparklines):** Gráficos que viven dentro de una celda. Perfectos para mostrar tendencias de los últimos 6 meses sin ocupar espacio.
-*   **Segmentadores de Datos (Slicers):** Son botones interactivos que filtran tus tablas y gráficos con un click. *Nota: Solo funcionan si tus datos están en formato de TABLA.*
+## 2. Herramientas Visuales Clave
+*   **Gráficos Combinados:** Excelentes para mostrar la relación entre dos métricas (ej. Barras para comparar ventas mensuales y una línea para observar la tendencia del margen).
+*   **Minigráficos (Sparklines):** Pequeños gráficos integrados en una celda que muestran tendencias de forma compacta y elegante.
+*   **Segmentadores de Datos (Slicers):** Botones interactivos que permiten filtrar la información de manera visual y sencilla. *Nota: Recuerda que para usarlos, tus datos deben estar organizados como una TABLA.*
 
 ## 3. Preparación para el Nivel Avanzado
-¿Por qué insistimos tanto en las **Tablas (Ctrl + T)**?
-1.  **Rangos Dinámicos:** Si agregas un nuevo dato al final, la tabla crece sola y tus gráficos se actualizan automáticamente.
-2.  **Referencias Estructuradas:** En lugar de `=SUMA(A2:A500)`, verás `=SUMA(Ventas[Total])`. Mucho más fácil de entender.
-3.  **Puente a Power BI:** Power BI ama las tablas. Si aprendes a estructurarlas bien aquí, la Semana 3 será pan comido.
+El uso de **Tablas (Ctrl + T)** es una de las mejores prácticas que puedes adoptar por varias razones:
+1.  **Dinamicidad:** Al agregar nuevos datos, la tabla y sus gráficos asociados se actualizan automáticamente, ahorrándote mucho trabajo manual.
+2.  **Lectura Clara:** Las fórmulas se vuelven más intuitivas. En lugar de coordenadas, verás nombres como `=SUMA(Ventas[Total])`.
+3.  **Compatibilidad:** Es la estructura preferida por herramientas avanzadas como Power BI, lo que facilitará enormemente tu aprendizaje en las próximas semanas.
 
 ---
 

@@ -15,11 +15,11 @@ La mayoría de los errores en Excel ocurren por una mala estructura inicial.
 *   **Validación de Datos con Listas:** Evita que los usuarios escriban "Bogotá", "bogota" y "BOG". Estandariza la entrada.
 
 ## 3. El Poder de las Referencias ($)
-Si no entiendes los signos de pesos, no sabes Excel.
-*   `A1`: Libre como el viento (Relativa).
-*   `$A$1`: Atada a una silla (Absoluta).
-*   `$A1`: Puede bajar pero no moverse a la derecha.
-*   `A$1`: Puede moverse a la derecha pero no bajar.
+Dominar el uso de los signos de pesos es uno de los pasos más importantes para ganar agilidad en Excel. Estas referencias nos permiten automatizar cálculos complejos con facilidad:
+*   `A1`: **Referencia Relativa**. Cambia al mover la fórmula (ideal para cálculos en serie).
+*   `$A$1`: **Referencia Absoluta**. Se mantiene fija sin importar a dónde muevas la fórmula (perfecto para tasas de IVA o valores fijos).
+*   `$A1`: **Mixta (Columna fija)**. Permite que la fila cambie, pero la columna se mantiene constante.
+*   `A$1`: **Mixta (Fila fija)**. Permite que la columna cambie, pero la fila se mantiene constante.
 
 ---
 

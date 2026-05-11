@@ -1,6 +1,6 @@
-# Guía de Sesión 2: El Cerebro de Excel (Funciones Avanzadas)
+# Guía de Sesión 2: Potencia tu Análisis con Funciones Avanzadas
 
-En esta sesión pasaremos de "escribir datos" a "hacer que los datos hablen". Aprenderemos a manipular texto, gestionar fechas con precisión y usar lógica condicional para la toma de decisiones.
+En esta sesión descubriremos cómo Excel puede procesar información de manera automática para brindarnos respuestas valiosas. Aprenderemos a organizar textos, gestionar cronogramas con precisión y aplicar lógica para agilizar nuestras tareas diarias.
 
 ---
 
