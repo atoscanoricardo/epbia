@@ -1,33 +1,38 @@
-# Programa de Capacitación: Excel, Power BI e IA
+# Capacitación IA, Excel y Power BI
 
-Bienvenido a la ruta de aprendizaje integral diseñada para dominar las herramientas más potentes de análisis de datos y productividad actual. Este repositorio sirve como guía docente y material de consulta para las lecciones.
+Bienvenido al repositorio central de la capacitación.
 
-## 🚀 Estructura del curso
-
-El programa se divide en 5 semanas de inmersión total:
-
-### 📊 Excel
-1.  **[Módulo 1: Excel Básico e Intermedio](./modulo-1-excel-basico/README.md)**
-    *   *Semana 1:* Cimientos sólidos, gestión eficiente y funciones esenciales.
-2.  **[Módulo 2: Excel Avanzado](./modulo-2-excel-avanzado/README.md)**
-    *   *Semana 2:* Automatización, Power Query y análisis de datos complejo.
-
-### 📈 Business Intelligence
-3.  **[Módulo 3: Power BI - Nivel 1](./modulo-3-powerbi-1/README.md)**
-    *   *Semana 3:* Conectividad, ETL con Power Query y modelado estelar.
-4.  **[Módulo 4: Power BI - Nivel 2](./modulo-4-powerbi-2/README.md)**
-    *   *Semana 4:* DAX avanzado, interactividad y publicación en el servicio.
-
-### 🤖 Inteligencia Artificial
-5.  **[Módulo 5: IA y Ecosistema de Productividad](./modulo-5-ia-productividad/README.md)**
-    *   *Semana 5:* Modelos LLM, agentes, automatización con n8n y herramientas académicas.
+## 🚀 Acceso al Sitio Web
+👉 **[Ver material en formato Web (Recomendado)](https://atoscanoricardo.github.io/epbia/)**
 
 ---
 
-## 🛠 Requisitos previos
-*   Excel instalado (versión 2019 o superior preferiblemente).
-*   Power BI Desktop instalado.
-*   Cuenta de Google/GitHub para herramientas de IA.
+## 🛠️ Software y Herramientas
+
+### Análisis de Datos
+*   [Microsoft Excel](https://www.microsoft.com/es-es/microsoft-365/excel)
+*   [Power BI Desktop](https://powerbi.microsoft.com/desktop/)
+
+### Inteligencia Artificial
+*   [ChatGPT](https://chat.openai.com/) | [Claude](https://claude.ai/) | [Gemini](https://gemini.google.com/)
+*   [Perplexity AI](https://www.perplexity.ai/)
+*   [NotebookLM](https://notebooklm.google.com/)
+
+### Automatización
+*   [Cursor (Code Editor)](https://cursor.com/)
+*   [n8n](https://n8n.io/)
+
+---
+
+## 📖 Módulos del Curso
+1.  [Módulo 1: Excel Básico e Intermedio](./modulo-1-excel-basico/README.md)
+2.  [Módulo 2: Excel Avanzado](./modulo-2-excel-avanzado/README.md)
+3.  [Módulo 3: Power BI - Nivel 1](./modulo-3-powerbi-1/README.md)
+4.  [Módulo 4: Power BI - Nivel 2](./modulo-4-powerbi-2/README.md)
+5.  [Módulo 5: IA y Productividad](./modulo-5-ia-productividad/README.md)
+
+## ⚡ Extras
+*   [Guía de Referencia Rápida (Shortcuts & Fórmulas)](./recursos/cheat-sheet.md)
 
 ---
 © 2026 - Capacitación TI

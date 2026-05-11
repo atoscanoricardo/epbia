@@ -1,3 +1,5 @@
+* [Guía de Referencia Rápida (Cheat Sheet)](recursos/cheat-sheet.md)
+
 * **Módulo 1: Excel Básico e Intermedio**
     * [Guía de Sesión 1](modulo-1-excel-basico/guia-sesion-1.md)
     * [Guía de Sesión 2](modulo-1-excel-basico/guia-sesion-2.md)

@@ -11,4 +11,23 @@
 
 <br>
 
-<img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=400&q=80" width="400" style="border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);" />
+<img src="recursos/portada.jpg" width="600" style="border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);" />
+
+<br>
+
+## 🛠️ Herramientas del Curso
+
+### 📊 Análisis de Datos
+*   **Microsoft Excel:** [Descargar / Acceder](https://www.microsoft.com/es-es/microsoft-365/excel)
+*   **Power BI Desktop:** [Descargar Gratis](https://powerbi.microsoft.com/desktop/)
+
+### 🤖 Inteligencia Artificial
+*   **ChatGPT (OpenAI):** [Acceder](https://chat.openai.com/)
+*   **Claude (Anthropic):** [Acceder](https://claude.ai/)
+*   **Gemini (Google):** [Acceder](https://gemini.google.com/)
+*   **Perplexity AI:** [Acceder](https://www.perplexity.ai/)
+*   **NotebookLM:** [Acceder](https://notebooklm.google.com/)
+
+### ⚙️ Desarrollo y Automatización
+*   **Cursor (AI Code Editor):** [Descargar](https://cursor.com/)
+*   **n8n (Automatización):** [Acceder](https://n8n.io/)
