@@ -7,36 +7,132 @@
   <meta name="description" content="Ruta de aprendizaje integral: De Excel a la Inteligencia Artificial">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   
-  <!-- Tema Moderno (Mojo) -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   
   <style>
     :root {
-      --theme-color: #2563eb; /* Azul Moderno */
+      --theme-color: #2563eb;
     }
+    
+    /* Estilos Generales */
     .markdown-section {
-      max-width: 800px;
-      padding: 30px 45px 40px;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px;
     }
-    nav.app-nav li ul {
-      min-width: 100px;
+
+    /* --- DISEÑO DE PORTADA (COVER) --- */
+    section.cover {
+      background: #0f172a !important; /* Fondo oscuro de seguridad */
+      position: relative;
+      overflow: hidden;
     }
-    /* Estilo para las tablas de Excel */
-    table {
-      display: table;
-      width: 100%;
-      border-collapse: collapse;
-      margin-bottom: 1rem;
+
+    /* Imagen de fondo con opacidad */
+    section.cover::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-image: url('recursos/portada.jpg');
+      background-size: cover;
+      background-position: center;
+      opacity: 0.4; /* Transparencia de la imagen */
+      z-index: 0;
     }
-    /* Mejora de legibilidad */
-    body {
-      font-size: 16px;
-      line-height: 1.6;
+
+    /* Overlay de degradado para mejor lectura */
+    section.cover::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: linear-gradient(90deg, rgba(15, 23, 42, 0.9) 0%, rgba(15, 23, 42, 0.2) 100%);
+      z-index: 1;
+    }
+
+    section.cover .cover-main {
+      position: relative;
+      z-index: 2;
+      text-align: left !important;
+      margin: 0 10% !important;
+      max-width: 700px;
+      color: white !important;
+    }
+
+    section.cover h1 {
+      font-size: 3.8rem !important;
+      font-weight: 800 !important;
+      color: white !important;
+      margin-bottom: 0.5rem !important;
+      letter-spacing: -1px;
+    }
+
+    section.cover blockquote {
+      font-size: 1.6rem !important;
+      color: #cbd5e1 !important;
+      border: none !important;
+      padding: 0 !important;
+      margin: 1.5rem 0 3rem 0 !important;
+    }
+
+    /* Botones de la Portada */
+    section.cover a {
+      display: inline-block !important;
+      border: none !important;
+      padding: 14px 35px !important;
+      border-radius: 10px !important;
+      font-weight: 700 !important;
+      font-size: 1.1rem !important;
+      transition: all 0.3s ease !important;
+      margin-right: 15px !important;
+      text-decoration: none !important;
+    }
+
+    section.cover a:first-of-type {
+      background-color: #2563eb !important;
+      color: white !important;
+    }
+
+    section.cover a:first-of-type:hover {
+      background-color: #1d4ed8 !important;
+      transform: translateY(-3px);
+      box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.4);
+    }
+
+    section.cover a:last-of-type {
+      background-color: rgba(255, 255, 255, 0.1) !important;
+      color: white !important;
+      backdrop-filter: blur(5px);
+      border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    }
+
+    section.cover a:last-of-type:hover {
+      background-color: rgba(255, 255, 255, 0.2) !important;
+      transform: translateY(-3px);
+    }
+
+    /* Quitar el scroll down por defecto si estorba */
+    section.cover .anchor {
+      display: none;
+    }
+
+    /* Estilos para el contenido de herramientas al final */
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 40px;
+    }
+    
+    .tool-card {
+      padding: 20px;
+      background: #f8fafc;
+      border-radius: 12px;
+      border: 1px solid #e2e8f0;
     }
   </style>
 </head>
 <body>
-  <div id="app">Cargando la experiencia de aprendizaje...</div>
+  <div id="app">Cargando la ruta de aprendizaje...</div>
   <script>
     window.$docsify = {
       name: 'Capacitación TI',
@@ -44,29 +140,18 @@
       loadSidebar: true,
       loadNavbar: true,
       coverpage: true,
-      subMaxLevel: 3,
       auto2top: true,
-      search: {
-        maxAge: 86400000,
-        paths: 'auto',
-        placeholder: 'Buscar tema...',
-        noData: 'No se encontraron resultados',
-        depth: 6
-      },
+      search: 'auto',
       pagination: {
         previousText: 'Anterior',
         nextText: 'Siguiente',
-        crossChapter: true,
-        crossChapterText: true,
       },
       copyCode: {
-        buttonText : 'Copiar código',
-        errorText  : 'Error',
+        buttonText : 'Copiar',
         successText: '¡Copiado!'
       }
     }
   </script>
-  <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
