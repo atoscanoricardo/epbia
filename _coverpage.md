@@ -9,4 +9,6 @@
 [Comenzar ahora](#introduccion)
 [Ver en GitHub](https://github.com/atoscanoricardo/epbia)
 
-![logo](https://img.icons8.com/fluency/144/analytics.png)
+<br>
+
+<img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=400&q=80" width="400" style="border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);" />
