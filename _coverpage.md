@@ -9,4 +9,4 @@
 [Comenzar ahora](#introduccion)
 [Ver en GitHub](https://github.com/atoscanoricardo/epbia)
 
-![logo](https://img.icons8.com/fluency/144/artificial-intelligence.png)
+![logo](https://img.icons8.com/fluency/144/analytics.png)
