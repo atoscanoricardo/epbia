@@ -4,7 +4,8 @@
 
 - **Diseño Moderno**
 - **Enfoque Práctico**
-- **100% Interactivo**
+- **100% Interactivo** 
+
 
 [Comenzar ahora](#introduccion)
 [Ver en GitHub](https://github.com/atoscanoricardo/epbia)
